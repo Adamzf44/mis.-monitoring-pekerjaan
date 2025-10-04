@@ -16,9 +16,9 @@ Project includes:
    ```
 3. In your GitHub repo settings → Secrets → Actions, add these secrets:
    - `KEYSTORE_BASE64` : (contents of keystore.base64.txt)
-   - `KEYSTORE_PASSWORD` : keystore password
-   - `KEY_ALIAS` : key alias (e.g., my-key-alias)
-   - `KEY_PASSWORD` : key password (often same as keystore password)
+   - `KEYSTORE_PASSWORD` : ASM2020
+   - `KEY_ALIAS` : PT ADAM SUKSES MANDIRI (e.g., my-key-PT ADAM SUKSES MANDIRI)
+   - `KEY_PASSWORD` : ASM2020 (often same as keystore password)
 
 Once secrets are added, pushing to `main` will run both jobs; the release job runs only if `KEYSTORE_BASE64` secret is present.
 
